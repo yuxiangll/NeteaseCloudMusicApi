@@ -13,3 +13,11 @@
     }
   ]
 }
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://netease-cloud-music-api-six-sooty-65.vercel.app/:match*"
+    }
+  ]
+}
